@@ -1,0 +1,96 @@
+#titulo{
+color: #0077cc;
+}
+
+#conteudo{
+margin: 20px auto 25px;
+position: relative;
+width: 1045px;
+/*height: 100%;*/
+background: #FFF;
+border: 1 solid #D8D8D8;
+box-shadow: 3px 3px 10px #E2E2E2;
+
+font-family: Capriola-Regular;
+
+}
+#sub_content{
+/*float: left;*/
+width: 660px;
+padding: 0;
+margin: 0;
+outline: none;
+list-style: none;
+border: 0 none;
+}
+
+#post{
+padding: 20;
+margin: 20;
+/*position: relative;*/
+width: 660px;
+bottom: -90px;
+line-height: 30px;
+background: white;
+border-radius: 1px;
+-moz-border-radius: 1px;
+-webkit-border-radius: 1px;
+box-shadow: 0 1px 3px 0 #b5b5b5;
+-moz-box-shadow: 0 1px 3px 0 #b5b5b5;
+-webkit-box-shadow: 0 1px 3px 0 #b5b5b5;
+border: 1px solid #DDD;
+border-bottom: 4px solid #81bd00;
+}
+
+#galeria{
+padding: 20;
+margin: 20;
+/*position: absolute;*/
+width: 660px;
+line-height: 30px;
+background: white;
+border-radius: 1px;
+-moz-border-radius: 1px;
+-webkit-border-radius: 1px;
+box-shadow: 0 1px 3px 0 #b5b5b5;
+-moz-box-shadow: 0 1px 3px 0 #b5b5b5;
+-webkit-box-shadow: 0 1px 3px 0 #b5b5b5;
+border: 1px solid #DDD;
+}
+
+#visitado{
+padding: 20;
+margin: 20;
+position: absolute;
+right: -40px;
+width: 240px;
+height: 160px;
+line-height: 30px;
+background: white;
+-webkit-box-shadow: 0 1px 3px 0 #b5b5b5;
+top: 40;
+
+}
+#visitado2{
+padding: 20;
+margin-top: 83;
+margin-right: 30px;
+position: absolute;
+right: 10px;
+width: 240px;
+height: 160px;
+line-height: 30px;
+background: white;
+
+
+}
+#linha{
+background: url(stripe.png);
+height: 12px;
+width: 83%;
+overflow: hidden;
+margin-top: 5px;
+position: relative;
+top: -25;
+right: -80;
+}

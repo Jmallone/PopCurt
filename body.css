@@ -1,0 +1,53 @@
+body{
+margin: 0px;
+padding: 0px;
+background: aliceblue;
+}
+
+::selection {
+background: #F9A386;
+ color: #fff; 
+ text-shadow: none; }
+ 
+@font-face {
+font-family: NasalizationTeste;
+font-style: normal;
+font-weight: normal;
+src: url(PWNewArrows.ttf);
+}
+
+@font-face {
+font-family: Capriola-Regular;
+font-style: normal;
+font-weight: normal;
+src: url(Capriola-Regular.ttf);
+}
+
+@font-face {
+font-family: FrancoisOne;
+font-style: normal;
+font-weight: normal;
+src: url(FrancoisOne.ttf);
+}
+
+
+@font-face {
+font-family: Blackout-Midnight;
+font-style: normal;
+font-weight: normal;
+src: url(Blackout-Midnight.ttf);
+}
+
+@font-face{
+font-family: Blackout-2am;
+font-style: normal;
+font-weight: normal;
+src: url(Blackout-2am.ttf);
+}
+
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Droid Sans'), local('DroidSans'), url(http://themes.googleusercontent.com/static/fonts/droidsans/v3/s-BiyweUPV0v-yRb-cjciBsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
+}
