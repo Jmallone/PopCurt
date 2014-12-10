@@ -99,6 +99,14 @@ color: #ddd;
 border-radius: 10;
 }
 
+#box_pesquisar form{
+position: relative;
+top: 5px;
+right: 5px;
+left: 32px;
+width: 350px;
+}
+
 #ok{
 top: 11;
 position: absolute;
