@@ -1,5 +1,9 @@
-#titulo{
+#titulo a{
 color: #0077cc;
+}
+
+#titulo a:hover{
+color: #000;
 }
 
 #conteudo{
@@ -40,6 +44,11 @@ box-shadow: 0 1px 3px 0 #b5b5b5;
 -webkit-box-shadow: 0 1px 3px 0 #b5b5b5;
 border: 1px solid #DDD;
 border-bottom: 4px solid #81bd00;
+}
+
+#post font img:hover{
+opacity: 0.9;
+border-radius: 10px;
 }
 
 #galeria{
