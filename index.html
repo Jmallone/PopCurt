@@ -14,6 +14,8 @@
 		<script src="//code.jquery.com/jquery-1.10.2.js"></script>
 		<script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
 		<script type="text/javascript" src="script/box.js"></script>
+		<script type="text/javascript" src="script/menu_fixo.js"></script>
+
 	</head>
 	
 	<body>
@@ -27,23 +29,6 @@
 			</div>
 			<div id="box_sub">
 				<img src="img/img2.png">
-			</div>
-			<div id="box_pesquisar">
-				<form >
-					<script>
-					  (function() {
-						var cx = '011369609639140960818:qmooiagaely';
-						var gcse = document.createElement('script');
-						gcse.type = 'text/javascript';
-						gcse.async = true;
-						gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-							'//www.google.com/cse/cse.js?cx=' + cx;
-						var s = document.getElementsByTagName('script')[0];
-						s.parentNode.insertBefore(gcse, s);
-					  })();
-					</script>
-					<gcse:searchbox-only></gcse:searchbox-only>
-				</form>
 			</div>
 			<a href="index.html">
 			<font  face="Blackout-Midnight" class="titulo">
@@ -66,18 +51,35 @@
 					</h2>
 				</section>
 			</div>
-
-			<div id="menu">
-				<ul>
-				<li></li>
-				<li><a class="inicio_b" href="#">Inicio</a></li>
-				<li><a class="jogos_b" href="#">Jogos</a></li>
-				<li><a class="hq_b" href="#">HQ</a></li>
-				<li><a class="seriado_b" href="#">Seriados</a></li>
-				<li><a class="filme_b" href="#">Filmes</a></li>
-				<li><a class="happy_b" href="#">Happy :)</a></li>
-				</ul>
-			
+			<div id="meuMenu">
+				<div id="menu">
+					<ul>
+					<li></li>
+					<li><a class="inicio_b" href="#">Inicio</a></li>
+					<li><a class="jogos_b" href="#">Jogos</a></li>
+					<li><a class="hq_b" href="#">HQ</a></li>
+					<li><a class="seriado_b" href="#">Seriados</a></li>
+					<li><a class="filme_b" href="#">Filmes</a></li>
+					<li><a class="happy_b" href="#">Happy :)</a></li>
+					</ul>
+					<div id="box_pesquisar">
+						<form >
+							<script>
+							  (function() {
+								var cx = '011369609639140960818:qmooiagaely';
+								var gcse = document.createElement('script');
+								gcse.type = 'text/javascript';
+								gcse.async = true;
+								gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+									'//www.google.com/cse/cse.js?cx=' + cx;
+								var s = document.getElementsByTagName('script')[0];
+								s.parentNode.insertBefore(gcse, s);
+							  })();
+							</script>
+							<gcse:searchbox-only></gcse:searchbox-only>
+						</form>
+					</div>
+				</div>
 			</div>
 		</div>
 		
