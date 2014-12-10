@@ -56,6 +56,69 @@ box-shadow: 0 1px 3px 0 #b5b5b5;
 border: 1px solid #DDD;
 }
 
+
+#facebook{
+margin: 20;
+position: absolute;
+background: white;
+-webkit-box-shadow: 0 1px 3px 0 #b5b5b5;
+top: 466px;
+left: 725;
+}
+
+#mais{
+margin: 20;
+position: absolute;
+background: white;
+-webkit-box-shadow: 0 1px 3px 0 #b5b5b5;
+top: 883px;
+left: 725;
+width: 268;
+padding: 6;
+}
+
+#top_jogo{
+background: #6b739d;
+color: white;
+font-size: 20;
+padding-bottom: 15;
+margin-bottom: 2;
+}
+
+#top_jogo:hover{
+opacity:0.65;
+-moz-opacity: 0.65;
+filter: alpha(opacity=65);
+}
+
+#top_filme{
+background: #58CA58;
+color: white;
+font-size: 20;
+padding-bottom: 15;
+margin-bottom: 2;
+}
+
+#top_filme:hover{
+opacity:0.65;
+-moz-opacity: 0.65;
+filter: alpha(opacity=65);
+}
+
+#top_happy{
+background: #C02D3E;
+color: white;
+font-size: 20;
+padding-bottom: 15;
+margin-bottom: 2;
+}
+
+#top_happy:hover{
+opacity:0.65;
+-moz-opacity: 0.65;
+filter: alpha(opacity=65);
+}
+
 #visitado{
 padding: 20;
 margin: 20;
@@ -67,7 +130,6 @@ background: white;
 -webkit-box-shadow: 0 1px 3px 0 #b5b5b5;
 top: 40px;
 text-align: center;
-
 }
 #visitado2{
 padding: 20;
