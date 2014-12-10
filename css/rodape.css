@@ -18,6 +18,18 @@ position: absolute;
 left: 353px;
 border-left: 2px solid #3D3A3A;
 padding-left: 10px;
+border-right: 2px solid #222222;
+padding-right: 10px;
+}
+
+#rodape form p{
+position: absolute;
+top: -12;
+width: 171;
+left: 414px;
+border-left: 2px solid #3D3A3A;
+padding-left: 10px;
+padding-right: 10px;
 }
 
 #rodape a{
