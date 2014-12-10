@@ -2,11 +2,30 @@
 height: 30%;
 background: #333;
 border-top: 8px solid #81bd00;
+font-family: Capriola-Regular;
 }
 
 #rodape dl{
 position: absolute;
-left: 20%;
+left: 272px;
 border-right: 2px solid #222222;
 padding-right: 10;
+}
+
+
+#rodape form{
+position: absolute;
+left: 353px;
+border-left: 2px solid #3D3A3A;
+padding-left: 10px;
+}
+
+#rodape a{
+text-decoration: none;
+color: #ddd;
+text-shadow: 0 1px 1px #000;
+}
+
+#rodape a:hover{
+text-shadow: 0 0px 1px #CCC;
 }
